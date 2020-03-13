@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-/* The css seems to be in the order things appear on the page, not grouped by divs, as I would expect. */
+/* The css seems to be in the order things appear on the page, not grouped by sections or divs, as I would expect. */
 
 body {
     background-color: #d9dcd6;
@@ -20,27 +20,29 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-/* I don't understand why only the seo has its own .header designation*/
 
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+.header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header div ul {
+/* This css has me stumped.  The only change I made was to .header nav ul, and I added float: right. */
+.header nav ul {
     list-style-type: none;
+    float: right;
+
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    
 }
 
 a {

@@ -11,10 +11,11 @@
 </head>
 
 <body>
-    <div class="header">
-        <!--Israel pointed out that the <span> in the next line shouldn't be like that, but I had a hard time finding a resource about <span> that would help me clean this up.-->
+    <!--I changed div to section.-->
+    <section class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <!--I changed div to nav.-->
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -26,10 +27,12 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
-    <div class="hero"></div>
-    <div class="content">
+        </nav>
+    </section>
+    <!--I changed div to figure.-->
+    <figure class="hero"></figure>
+    <!--I changed div to section.-->
+    <section class="content">
        <!--Added an id to div search-engine-optimization and that made the link work-->
         <div id="search-engine-optimization" class="search-engine-optimization">
             <!--added "alt" for accessibility-->
@@ -41,7 +44,7 @@
         </div>
         <div id="online-reputation-management" class="online-reputation-management">
             <!--added "alt" for accessibility-->
-            <img src="./assets/images/online-reputation-management.jpg" alt="A laptop with the word 'reputation' on a red background and charts underneath" class="float-right" />
+            <img src="./assets/images/online-reputation-management.jpg" alt="A laptop with the word 'reputation' on a red background and charts underneath" class="float-right"/>
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
@@ -55,39 +58,44 @@
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </div>
-    </div>
-    <div class="benefits">
-        <div class="benefit-lead">
+    </section>
+    <!--I changed div to section.-->
+    <section class="benefits">
+        <!--I changed div to aside.-->
+        <aside class="benefit-lead">
             <h3>Lead Generation</h3>
             <!--added "alt" for accessibility-->
             <img src="./assets/images/lead-generation.png" alt="A symbol shaped like a lightbulb made out of other symbols" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
-        </div>
-        <div class="benefit-brand">
+        </aside>
+        <!--I changed div to aside.-->
+        <aside class="benefit-brand">
             <h3>Brand Awareness</h3>
             <!--added "alt" for accessibility-->
             <img src="./assets/images/brand-awareness.png" alt="A symbol of a lightbulb with lines showing emanating light" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
-        </div>
-        <div class="benefit-cost">
+        </aside>
+        <!--I changed div to aside.-->
+        <aside class="benefit-cost">
             <h3>Cost Management</h3>
             <!--added "alt" for accessibility, but it is a different color than the other alts, so it probably isn't going to work. I tried a couple of things, to no avail.-->
             <img src="assets\images\cost-management.png"> alt="A sylbol of a gear with three circles with dollar signs" />
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </div>
-    </div>
-    <div class="footer">
+        </aside>
+    </section>
+    <!--I changed div to footer.-->
+    <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
